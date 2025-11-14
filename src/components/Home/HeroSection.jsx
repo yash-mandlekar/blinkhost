@@ -27,7 +27,7 @@ const HeroSection = () => {
           <motion.h1
             variants={fadeUp}
             custom={0.1}
-            className="text-5xl lg:text-5xl font-bold text-gray-900 mb-6"
+            className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6"
           >
             Trusted Indian Web Hosting Provider
           </motion.h1>
@@ -76,13 +76,13 @@ const HeroSection = () => {
           >
             <motion.button
               whileHover={{ scale: 1.05 }}
-              className="bg-accent-orange text-white px-8 py-3 rounded-full font-semibold hover:bg-light-accent-orange transition"
+              className="bg-accent-orange text-white px-2 py-3 rounded-full font-semibold hover:bg-light-accent-orange transition w-30"
             >
               View Plans
             </motion.button>
             <motion.button
               whileHover={{ scale: 1.05 }}
-              className="border-2 border-primary-blue text-primary-blue px-8 py-3 rounded-full font-semibold hover:bg-primary-blue hover:text-white transition"
+              className="border-2 border-primary-blue text-primary-blue px-2 py-3 rounded-full font-semibold hover:bg-primary-blue hover:text-white transition w-30"
             >
               Chat Now
             </motion.button>
