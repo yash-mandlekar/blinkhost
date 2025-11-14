@@ -69,7 +69,7 @@ export default function FAQAccordion() {
             Frequently Asked Questions about n8n Hosting
           </h2>
           <p className="text-base text-gray-600 sm:text-lg">
-            FAQs | More information on n8n Hosting on Contabo
+            FAQs | More information on n8n Hosting on Blinkhost
           </p>
         </div>
 

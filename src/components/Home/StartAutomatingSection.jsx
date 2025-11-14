@@ -13,7 +13,7 @@ export default function StartAutomatingSection() {
           <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Wondering how to self-host n8n? Forget complicated command-line installations that take hours.
             <br className="hidden sm:block" />
-            With Contabo, you get n8n already installed on a VPS of your choice.
+            With Blinkhost, you get n8n already installed on a VPS of your choice.
           </p>
         </div>
 

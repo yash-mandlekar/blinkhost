@@ -23,7 +23,7 @@ export default function GlobalLocationsSection() {
             9 Regions, 11 Locations, Global Availability
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Host your n8n system at a Contabo Data Center near you to ensure low-latency performant 
+            Host your n8n system at a Blinkhost Data Center near you to ensure low-latency performant 
             access, redundancy, as well as compliance and data residency.
           </p>
         </div>

@@ -41,7 +41,7 @@ export default function N8nSelfHostSection() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Why Self-Host n8n on the Contabo Cloud?
+            Why Self-Host n8n on the Blinkhost Cloud?
           </h1>
           <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
             Self-hosting n8n on your own VPS gives you a level of freedom, power, and control that the n8n 
