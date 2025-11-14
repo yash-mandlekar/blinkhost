@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { CircleFadingArrowUp, Clock9 } from "lucide-react";
+import { Check, CircleFadingArrowUp, Clock9 } from "lucide-react";
 
 // Animation Variants
 const fadeUp = {
@@ -51,9 +51,9 @@ const HeroSection = () => {
             className="space-y-3 mb-10"
           >
             {[
-              { icon: "🌐", text: "Free Domain + SSL for 1 Year" },
-              { icon: "📧", text: "Free Business Email & Site Migration" },
-              { icon: "💬", text: "24/7 Expert Support Whenever You Need It" },
+              { icon: <Check color="green" />, text: "Free Domain + SSL for 1 Year" },
+              { icon: <Check color="green" />, text: "Free Business Email & Site Migration" },
+              { icon: <Check color="green" />, text: "24/7 Expert Support Whenever You Need It" },
             ].map((item, index) => (
               <motion.div
                 key={index}
