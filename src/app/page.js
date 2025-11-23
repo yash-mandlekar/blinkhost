@@ -20,7 +20,10 @@ export default function Home() {
       <HeroSection />
       <StatsSection />
       <PricingSection />
+
+      {/* N8N Page */}
       <N8nHeroSection />
+
       <AutomateSection />
       <StartAutomatingSection />
       <N8nSelfHostSection />

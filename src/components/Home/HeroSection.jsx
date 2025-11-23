@@ -51,9 +51,18 @@ const HeroSection = () => {
             className="space-y-3 mb-10"
           >
             {[
-              { icon: <Check color="green" />, text: "Free Domain + SSL for 1 Year" },
-              { icon: <Check color="green" />, text: "Free Business Email & Site Migration" },
-              { icon: <Check color="green" />, text: "24/7 Expert Support Whenever You Need It" },
+              {
+                icon: <Check color="green" />,
+                text: "Free Domain + SSL for 1 Year",
+              },
+              {
+                icon: <Check color="green" />,
+                text: "Free Business Email & Site Migration",
+              },
+              {
+                icon: <Check color="green" />,
+                text: "24/7 Expert Support Whenever You Need It",
+              },
             ].map((item, index) => (
               <motion.div
                 key={index}
@@ -138,11 +147,13 @@ const HeroSection = () => {
                 ease: "easeInOut",
               }}
               className="absolute -top-10 right-10 w-96 h-96 bg-blue-100 rounded-full"
-            ></motion.div>
+            >
+              
+            </motion.div>
 
             {/* Main Image */}
             <motion.img
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=600&fit=crop"
+              src="/hero.png"
               alt="Happy customer"
               className="rounded-2xl shadow-xl w-full max-w-md mx-auto relative z-10"
               animate={{
