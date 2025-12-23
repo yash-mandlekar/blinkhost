@@ -178,7 +178,7 @@ const Navbar = () => {
                               href="#"
                               className="flex items-start gap-3 px-4 py-3 text-sm text-gray-700 hover:bg-orange-50 rounded-md transition-all duration-200 group"
                             >
-                              <Icon className="w-5 h-5 text-orange-400 group-hover:text-orange-500 transition-colors flex-shrink-0 mt-0.5" />
+                              <Icon className="w-5 h-5 text-orange-400 group-hover:text-orange-500 transition-colors  mt-0.5" />
                               <div className="flex flex-col">
                                 <span className="font-medium text-gray-900 group-hover:text-orange-500">{item.name}</span>
                                 <span className="text-xs text-gray-500 mt-0.5">{item.description}</span>
@@ -204,7 +204,7 @@ const Navbar = () => {
                               href="#"
                               className="flex items-start gap-3 px-4 py-3 text-sm text-gray-700 hover:bg-orange-50 rounded-md transition-all duration-200 group"
                             >
-                              <Icon className="w-5 h-5 text-orange-400 group-hover:text-orange-500 transition-colors flex-shrink-0 mt-0.5" />
+                              <Icon className="w-5 h-5 text-orange-400 group-hover:text-orange-500 transition-colors  mt-0.5" />
                               <div className="flex flex-col">
                                 <span className="font-medium text-gray-900 group-hover:text-orange-500">{item.name}</span>
                                 <span className="text-xs text-gray-500 mt-0.5">{item.description}</span>
@@ -226,7 +226,7 @@ const Navbar = () => {
                         href="#"
                         className="flex items-start gap-3 px-4 py-3 text-sm text-gray-700 hover:bg-orange-50 rounded-md transition-all duration-200 group"
                       >
-                        <Icon className="w-5 h-5 text-orange-400 group-hover:text-orange-500 transition-colors flex-shrink-0 mt-0.5" />
+                        <Icon className="w-5 h-5 text-orange-400 group-hover:text-orange-500 transition-colors  mt-0.5" />
                         <div className="flex flex-col">
                           <span className="font-medium text-gray-900 group-hover:text-orange-500">{item.name}</span>
                           <span className="text-xs text-gray-500 mt-0.5">{item.description}</span>
